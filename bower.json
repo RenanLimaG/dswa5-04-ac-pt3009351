@@ -1,0 +1,27 @@
+{
+  "name": "dswa5-04-ac-pt3009351",
+  "version": "0.0.1",
+  "main": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "chaplin": "~0.11.0",
+    "console-polyfill": "~0.1.0",
+    "lodash": "~2.1.0",
+    "jquery": "~2.0.2",
+    "normalize-css": "~2.1.2",
+    "angular": "1.7"
+  },
+  "overrides": {
+    "backbone": {
+      "dependencies": {
+        "lodash": "*",
+        "jquery": "*"
+      },
+      "main": "backbone.js"
+    }
+  }
+}
